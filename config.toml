@@ -1,5 +1,6 @@
 base_url = "https://babilinx.github.io"
 title = "Babilinx's home"
+description = "Babilinx's website"
 compile_sass = true
 build_search_index = false
 theme = "apollo"
@@ -31,4 +32,6 @@ menu = [
 socials = [
     { name = "matrix", url = "https://matrix.to/#/@papilinux:matrix.org", icon = "matrix" },
     { name = "github", url = "https://github.com/babilinx/", icon = "github" },
+    { name = "feed", url = "atom.xml", icon = "rss" },
 ]
+
