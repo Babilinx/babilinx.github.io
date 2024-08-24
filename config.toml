@@ -31,7 +31,9 @@ menu = [
 
 socials = [
     { name = "matrix", url = "https://matrix.to/#/@papilinux:matrix.org", icon = "matrix" },
+    { name = "discord", url = "https://discord.com/users/656158865876058132", icon = "discord" },
     { name = "github", url = "https://github.com/babilinx/", icon = "github" },
+    { name = "email", url = "mailto:babilinx.evx1o@simplelogin.com", icon = "email" },
     { name = "feed", url = "atom.xml", icon = "rss" },
 ]
 
