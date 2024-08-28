@@ -1,6 +1,8 @@
 +++
 title = "Babilinx's home"
 template = "homepage.html"
+[extra]
+comment = false
 +++
 Welcome here! I'm Bastien (aka Babilinx/Papilinux), a French FOSS and tech enthousiast.
 
