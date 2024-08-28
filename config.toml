@@ -20,7 +20,7 @@ theme = "toggle"
 comment = false
 fancy_code = true
 dynamic_note = true
-repo_url = "https://github.com/babilinx/babilinx.github.io/tree/main/content"
+repo_url = "https://github.com/babilinx/babilinx.github.io/tree/main/content/"
 
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
