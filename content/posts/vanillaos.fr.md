@@ -1,6 +1,6 @@
 +++
 title = "[fr] Vanilla OS"
-date = "2024-08-25"
+date = "2024-08-28"
 
 [taxonomies]
 tags = ["linux", "review"]
