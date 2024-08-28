@@ -7,7 +7,6 @@ tags = ["general"]
 
 [extra]
 repo_view = true
-comment = true
 +++
 
 ---
