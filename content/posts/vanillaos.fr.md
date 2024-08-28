@@ -309,6 +309,10 @@ La compatibilité n'est vraiment pas grande ; seulement l'architecture X86_64 es
 
 Avec autant de restrictions, je ne peux donner que la note de 1/3.
 
+## Le résultat
+
+On se retrouve donc avec un score total de 36/50 Pour l'instant ça ne veut pas dire grand-chose car c'est la première distro testé sur ce principe, mais je pense que c'est déjà pas mal. J'ajouterai un tableau de comparaison quand j'aurais plus de données.
+
 # La fin
 
 Pour conclure, Vanilla OS se trouve être un très bon OS, qui restera sur mes machines encore quelques temps. Malgré le manque de raffinement sur certains points, on reste sur un système que Jean-tout-le-monde peut utiliser sans avoir à demander de l'aide tous les jours. On verra dans le futur si tout s'améliore, mais j'y crois beaucoup. Je risque d'ajouter des édits sur les points qui ont changés.
