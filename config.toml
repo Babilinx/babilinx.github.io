@@ -21,7 +21,7 @@ comment = true
 fancy_code = true
 dynamic_note = true
 repo_url = "https://github.com/babilinx/babilinx.github.io/tree/main/content/"
-analytics.enable = true
+analytics.enabled = true
 analytics.umami.website_id = "adf6bccb-f884-42b3-872f-4667570da896"
 
 menu = [
