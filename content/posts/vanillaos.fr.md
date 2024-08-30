@@ -275,9 +275,11 @@ Il est possible de faire mieux, mais c'est déjà ça. 2/3.
 
 ## La documentation et la communauté
 
+{{ note(header="Mise à jour (2024-08-30)", body="La documentation a reçue une mise à jour aujourd'hui permettant ainsi de la mettre à jour sur les outils de la distribution. Elle reste tout de même succinte mais c'est déjà bien mieux. La note a été mise à jour. Je laisse quand-même le texte lié à l'état de la documentation avant cette mise à jour.") }]
+
 C'est ici que ça se corse. La communauté est gentille, aidante et plutôt patiente sur le serveur Discord, mais il arrive trop souvent que des personnes n'aient aucune aide suite à leur post dans la section "forum". Pour ce qui est de la documentation.. il faut dire qu'ils ont besoin d'aide ! On voit que tous leur temps a été consacré à l'écriture et à l'amélioration de cette v2 du système d'exploitation, en dépit de la documentation qui est dans le meilleur des cas incomplète, ou inexistante dans la v2 des outils ou tout simplement inexistante tout court. C'est vraiment un point sur lequel il faut qu'ils s'améliorent, mais la communauté peut aussi aider. Il faut juste se lancer. De plus avec un système relativement éloigné du fonctionnement des autres distros les autres tutoriels du net n'aident pas beaucoup si on ne sait pas trop ce que l'on fait.
 
-Je compte refaire une mise à jour de cette review dans quelques temps, mais pour l'instant cela vaut un petit 2/7.
+Avec les dernières modifications apportés à la documentation, j'augmente la note de 2/7 à 4/7.
 
 ## L'adaptabilité
 
@@ -311,7 +313,7 @@ Avec autant de restrictions, je ne peux donner que la note de 1/3.
 
 ## Le résultat
 
-On se retrouve donc avec un score total de 36/50 Pour l'instant ça ne veut pas dire grand-chose car c'est la première distro testé sur ce principe, mais je pense que c'est déjà pas mal. J'ajouterai un tableau de comparaison quand j'aurais plus de données.
+On se retrouve donc avec un score total de 38/50 Pour l'instant ça ne veut pas dire grand-chose car c'est la première distro testé sur ce principe, mais je pense que c'est déjà pas mal. J'ajouterai un tableau de comparaison quand j'aurais plus de données.
 
 # La fin
 
