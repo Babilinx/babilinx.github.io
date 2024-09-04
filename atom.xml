@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Babilinx&#x27;s home</title>
+    <subtitle>Babilinx&#x27;s website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://babilinx.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://babilinx.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-08-28T00:00:00+00:00</updated>
+    <id>https://babilinx.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>[fr] Vanilla OS</title>
+        <published>2024-08-28T00:00:00+00:00</published>
+        <updated>2024-08-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://babilinx.github.io/posts/vanillaos-fr/"/>
+        <id>https://babilinx.github.io/posts/vanillaos-fr/</id>
+        
+        <content type="html" xml:base="https://babilinx.github.io/posts/vanillaos-fr/">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;le-debut&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#le-debut&quot; aria-label=&quot;Anchor link for: le-debut&quot;&gt;Le début&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Dans un monde où il y a plus de distributions GNU&#x2F;Linux que de personnes utilisant GNU&#x2F;Linux quotidiennement, un petit groupe existant depuis maintenant quelques années se distingue des autres : les distros immuables.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;les-distros-immuables&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#les-distros-immuables&quot; aria-label=&quot;Anchor link for: les-distros-immuables&quot;&gt;Les distros immuables&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Premièrement le terme &quot;immuable&quot; n&#x27;est pas forcément le plus adapté. En les appelant comme ça, on a l&#x27;impression qu&#x27;on ne peut que regarder, sans jamais pouvoir sauvegarder ou bien modifier des fichiers, ce qui est, on ne va pas se mentir, peu pratique quand on souhaite faire des choses sur sa machine.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Mais alors, qu&#x27;est ce qui fait une distro &quot;immuable&quot; ?&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Un système immuable comprend dans la plupart des cas ces différentes &quot;technologies&quot; :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;un système de fichiers racine en lecture seule&lt;&#x2F;li&gt;
+&lt;li&gt;des mises à jour atomiques&#x2F;transactionnelles qui n&#x27;altèrent pas le système actuel et qui garantissent un ordinateur toujours en état de marche&lt;&#x2F;li&gt;
+&lt;li&gt;des mises à jour basés sur des images (souvent &lt;a href=&quot;https:&#x2F;&#x2F;opencontainers.org&#x2F;&quot;&gt;OCI&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;un système de retour en arrière en cas de modification&#x2F;mise à jour qui casse le système&lt;&#x2F;li&gt;
+&lt;li&gt;une méthode de travail axée sur l&#x27;utilisation de containers&lt;&#x2F;li&gt;
+&lt;li&gt;l&#x27;utilisation de paquets universels, installés dans le répertoire utilisateur avec principalement &lt;a href=&quot;https:&#x2F;&#x2F;flatpak.org&quot;&gt;Flatpak&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Vanilla OS coche toutes ces cases.&lt;&#x2F;p&gt;
+&lt;p&gt;Dans les principales distributions immuables, vous avez :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fedora &lt;a href=&quot;https:&#x2F;&#x2F;fedoraproject.org&#x2F;fr&#x2F;atomic-desktops&#x2F;silverblue&#x2F;&quot;&gt;Silverblue&lt;&#x2F;a&gt;&#x2F;&lt;a href=&quot;https:&#x2F;&#x2F;fedoraproject.org&#x2F;fr&#x2F;atomic-desktops&#x2F;kinoite&#x2F;&quot;&gt;Kinoite&lt;&#x2F;a&gt; et consorts&lt;&#x2F;li&gt;
+&lt;li&gt;Le projet &lt;a href=&quot;https:&#x2F;&#x2F;universal-blue.org&#x2F;&quot;&gt;Universal Blue&lt;&#x2F;a&gt; basé sur &lt;a href=&quot;https:&#x2F;&#x2F;fedoraproject.org&#x2F;atomic-desktops&#x2F;&quot;&gt;Fedora Atomic Desktop&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;aeondesktop.org&quot;&gt;OpenSUSE Aeon&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nixos.org&quot;&gt;NixOS&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vanillaos.org&quot;&gt;VanillaOS&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Tous ces systèmes vous font la promesse d&#x27;une expérience sans encombre avec un terminal toujours opérationnel quelque soit la tâche (jeux, bureautique, travail etc), mais est-ce vraiment le cas ? TLDR : oui, &lt;em&gt;mais ça dépend&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;la-distro&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-distro&quot; aria-label=&quot;Anchor link for: la-distro&quot;&gt;La distro&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;les-promesses&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#les-promesses&quot; aria-label=&quot;Anchor link for: les-promesses&quot;&gt;Les promesses&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Dès notre arrivée sur le &lt;a href=&quot;https:&#x2F;&#x2F;vanillaos.org&#x2F;&quot;&gt;site&lt;&#x2F;a&gt; du projet, tout de suite les mots sont lourds :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vanilla OS is your next Operating System.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;On voit que le système d&#x27;exploitation se veut la Rolls Royce des OSs en nous affirmant que &quot;Vanilla OS est votre &lt;em&gt;prochain&lt;&#x2F;em&gt; système d&#x27;exploitation.&quot;. Ici tout le monde est ciblé : du geek au fond de sa chambre, à notre grand-père qui galère à ne serait-ce consulter ses mails.&lt;&#x2F;p&gt;
+&lt;p&gt;La suite s&#x27;axe sur 6 axes :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Le travail avec un environnement fiable et une interface intuitive&lt;&#x2F;li&gt;
+&lt;li&gt;Le jeu vidéo à travers les différents lanceurs dont Steam disponibles via Flatpak&lt;&#x2F;li&gt;
+&lt;li&gt;Le développement à l&#x27;aide de leur outil de gestion de containers&lt;&#x2F;li&gt;
+&lt;li&gt;L&#x27;accès à un large jeu d&#x27;applications disponibles sur &lt;a href=&quot;https:&#x2F;&#x2F;flathub.org&quot;&gt;Flathub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;La solidité grâce à un système immuable et toujours démarrable&lt;&#x2F;li&gt;
+&lt;li&gt;La versatilité avec des images système configurables par n&#x27;importe qui s&#x27;en donne les moyens (&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Babilinx&#x2F;styx-vanilla-image&quot;&gt;ce que je fais&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Un système où il n&#x27;y a pas de maintenance et qui marche quand-même, ça fait rêver pas vrai ?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;la-securite&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-securite&quot; aria-label=&quot;Anchor link for: la-securite&quot;&gt;La sécurité&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Vanilla OS met un point d&#x27;honneur à proposer une solution qui permet à ses utilisateurs de garder un système sécurisé. Le chiffrement des données utilisateur est activé par défaut dans l&#x27;installateur, mais il y a aussi un outil, &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;linux-immutability-tools&#x2F;FsGuard&quot;&gt;FSGuard&lt;&#x2F;a&gt;, qui vérifie à chaque démarrage l&#x27;intégrité du système de fichiers. Ainsi un attaquant n&#x27;a ni l&#x27;accès à vos données, ni la possibilité d&#x27;altérer le système de fichiers racine sans que vous vous en rendiez compte. De plus, le Secure Boot est supporté par défaut.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;orchid_integrity_check.png&quot; alt=&quot;orchid integrity check&quot; &#x2F;&gt;
+&lt;figcaption&gt;Impossible de ne pas le voir au démarrage&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Le système &quot;base&quot; n&#x27;a même pas &lt;code&gt;sudo&lt;&#x2F;code&gt; d&#x27;installé, qui est connu pour avoir des vulnérabilités. Il est remplacé par une utilisation de polices PolKit qui permettent un contrôle plus fin sur les permissions admin. Ainsi il n&#x27;y a aucun moyen (hors faille de sécurité dans PolKit) que quoique ce soit ne soit modifié en tant que root sans que le mot&#x2F;phrase de passe de l&#x27;administrateur ne soit demandé.&lt;&#x2F;p&gt;
+&lt;p&gt;J&#x27;ai tenté d&#x27;utiliser la puce TPM2 de mon ordinateur pour permettre un démarrage sans avoir à entrer le mot de passe permettant de déchiffrer les données à l&#x27;aide de &lt;code&gt;systemd-cryptenroll&lt;&#x2F;code&gt;, mais pour l&#x27;instant cette tentative n&#x27;est pas un succès et personne n&#x27;a répondu à ma demande d&#x27;aide sur le forum du serveur Discord (on en reparle plus tard).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;l-installation&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#l-installation&quot; aria-label=&quot;Anchor link for: l-installation&quot;&gt;L&#x27;installation&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;div class=&quot;note-container&quot;&gt;
+  
+    &lt;div class=&quot;note-header&quot;&gt;
+      
+        &lt;div class=&quot;note-icon&quot;&gt;
+        &lt;p&gt;Note&lt;&#x2F;p&gt;
+
+        &lt;&#x2F;div&gt;
+      
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;note-content&quot;&gt;
+      &lt;p&gt;Ceci n&#x27;est en aucun cas un tutoriel d&#x27;installation. Bien se référer au &lt;a href=&quot;https:&#x2F;&#x2F;docs.vanillaos.org&#x2F;handbook&#x2F;en&#x2F;installation&quot;&gt;guide officiel&lt;&#x2F;a&gt; qui sera le plus à jour. Cependant il n&#x27;est pas impossible que j&#x27;en fasse un un jour !&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;div&gt;
+&lt;p&gt;Le processus d&#x27;installation est plutôt classique, et peu déroutant pour un débutant selon moi. Il faut tout de même noter qu&#x27;il faut &lt;strong&gt;obligatoirement&lt;&#x2F;strong&gt; disposer d&#x27;un système disposant d&#x27;un UEFI, sinon il faudra passer votre chemin.&lt;&#x2F;p&gt;
+&lt;p&gt;Lors de ma première installation sur mon PC portable, j&#x27;ai eu quelques soucis :&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;La liste des différents agencements clavier qui ne s&#x27;affichait pas =&amp;gt; un simple redémarrage a suffit.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;note-container&quot;&gt;
+  
+    &lt;div class=&quot;note-header&quot;&gt;
+      
+        &lt;div class=&quot;note-icon&quot;&gt;
+        &lt;p&gt;Note&lt;&#x2F;p&gt;
+
+        &lt;&#x2F;div&gt;
+      
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;note-content&quot;&gt;
+      &lt;p&gt;Notez que lors de l&#x27;installation sur mon PC fixe, avec une ISO un peu plus récente, ce problème n&#x27;était plus observable.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;L&#x27;utilisation du WiFi comme source d&#x27;accès internet était impossible. Non pas que la connexion ne fonctionnait pas, mais l&#x27;installateur lui plantait =&amp;gt; passage en Ethernet obligatoire.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;note-container&quot;&gt;
+  
+    &lt;div class=&quot;note-header&quot;&gt;
+      
+        &lt;div class=&quot;note-icon&quot;&gt;
+        &lt;p&gt;Note (26-08-2024)&lt;&#x2F;p&gt;
+
+        &lt;&#x2F;div&gt;
+      
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;note-content&quot;&gt;
+      &lt;p&gt;Ce bug est désormais fixé dans la dernière version de l&#x27;ISO.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;L&#x27;utilisation d&#x27;un téléphone en mode &quot;Modem USB&quot; pour l&#x27;accès internet ne semble pas implémenté dans l&#x27;installeur. Le système reconnait la connexion, mais l&#x27;installeur lui ne continue pas l&#x27;installation.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Lors du choix du chiffrement, je vous recommande de l&#x27;activer pour rester certain que vos données ne seront pas lisibles en cas de vol ou de vente du support de stockage si il a été mal effacé (&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;fr.wikipedia.org&#x2F;wiki&#x2F;R%C3%A9manence_des_donn%C3%A9es&quot;&gt;vos fichiers ne sont pas réellement effacés !&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;). De plus, &lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cnil.fr&#x2F;fr&#x2F;les-conseils-de-la-cnil-pour-un-bon-mot-de-passe&quot;&gt;utilisez un mot de passe fort&lt;&#x2F;a&gt; !&lt;&#x2F;strong&gt;. Si vous avez choisi d&#x27;utiliser le chiffrement, votre mot&#x2F;phrase de passe vous sera demandé lors de chaque démarrage.&lt;&#x2F;p&gt;
+&lt;p&gt;L&#x27;installateur ne configure ni les utilisateurs, ni les applications pré-installés. Tout ceci est fait après.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;le-premier-demarrage&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#le-premier-demarrage&quot; aria-label=&quot;Anchor link for: le-premier-demarrage&quot;&gt;Le premier démarrage&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Lors du premier démarrage, vous êtes convié à créer un utilisateur administrateur ainsi qu&#x27;a choisir les applications à installer par défaut. Un conseil : ne prenez que le strict minimum et installez le reste ensuite si vous en avez le besoin. Notez qu&#x27;il est possible de cliquer sur la catégorie pour ne choisir que certaines apps. Vous êtes ensuite convié à redémarrer.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;le-premier-redemarrage&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#le-premier-redemarrage&quot; aria-label=&quot;Anchor link for: le-premier-redemarrage&quot;&gt;Le premier redémarrage&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Après avoir fini de démarrer, vous arriverez sur l&#x27;écran de connexion. Celui-ci demandera un mot de passe (encore une fois, &lt;strong&gt;utilisez un mot&#x2F;phrase de passe fort ! Le premier compte a les droits administrateurs !&lt;&#x2F;strong&gt;). Se suit la première connexion lors de laquelle les applications choisies précédemment s&#x27;installent et le système se met à jour. Lorsque tout est terminé, n&#x27;hésitez pas à redémarrer.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;l-utilisation&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#l-utilisation&quot; aria-label=&quot;Anchor link for: l-utilisation&quot;&gt;L&#x27;utilisation&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;L&#x27;utilisation quotidienne de Vanilla OS s&#x27;avère très fluide, sans accros ni besoin de passer par la case terminal dans une utilisation &quot;normale&quot; (c&#x27;est-à-dire sans vouloir bidouiller le système ou faire des tests). Le système semble être le Chrome OS du monde ouvert : simple, léger et accessible à tous. Je ne vois donc aucun problème à installer ce système d&#x27;exploitation sur l&#x27;ordinateur de papi-mamie ou même du reste de la famille.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;l-environnement-de-bureau&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#l-environnement-de-bureau&quot; aria-label=&quot;Anchor link for: l-environnement-de-bureau&quot;&gt;L&#x27;environnement de bureau&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Vanilla OS est livrée seulement avec &lt;a href=&quot;https:&#x2F;&#x2F;www.gnome.org&#x2F;&quot;&gt;GNOME&lt;&#x2F;a&gt;. On aime ou on n&#x27;aime pas. Personnellement, je trouve GNOME très épuré et très fonctionnel, sans chichi. Il est possible de personnaliser l&#x27;interface à l&#x27;aide d&#x27;extensions accessibles avec l&#x27;application &lt;em&gt;&lt;a href=&quot;https:&#x2F;&#x2F;mattjakeman.com&#x2F;apps&#x2F;extension-manager&quot;&gt;Gestionnaire d&#x27;extensions&lt;&#x2F;a&gt;&lt;&#x2F;em&gt; disponible dans le magasin de logiciels.&lt;&#x2F;p&gt;
+&lt;div class=&quot;note-container&quot;&gt;
+  
+    &lt;div class=&quot;note-header&quot;&gt;
+      
+        &lt;div class=&quot;note-icon&quot;&gt;
+        &lt;p&gt;Note&lt;&#x2F;p&gt;
+
+        &lt;&#x2F;div&gt;
+      
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;note-content&quot;&gt;
+      &lt;p&gt;Pour ceux qui souhaitent modifier leur système un peu plus en profondeur, je conseille l&#x27;installation de GNOME Tweaks &lt;a href=&quot;https:&#x2F;&#x2F;docs.vanillaos.org&#x2F;handbook&#x2F;en&#x2F;install-gnome-tweaks&quot;&gt;via ABRoot&lt;&#x2F;a&gt;. Notez qu&#x27;il faudra passer par le terminal pour effectuer cette opération. Promis il ne faut le faire qu&#x27;une fois pour installer l&#x27;application.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;div&gt;
+&lt;p&gt;Voila à quoi cela ressemble chez moi :&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;gnome_overview.png&quot; alt=&quot;GNOME overview&quot; &#x2F;&gt;
+&lt;figcaption&gt;Avec Luminious Shell et GNOME 4X UI Improvements&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;On utilise &lt;code&gt;&amp;lt;super&amp;gt;&lt;&#x2F;code&gt; (touche Windows) pour afficher le menu Activités où on peut directement taper au clavier pour chercher des apps, des paramètres ou autre (configurable dans les Paramètres -&amp;gt; Recherche), ou bien afficher le menu des applications en appuyant sur les 9 points disposés en carré.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;gnome_app_menu.png&quot; alt=&quot;GNOME app menu&quot; &#x2F;&gt;
+&lt;figcaption&gt;Le menu des applications, organisable facilement&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;L&#x27;interface est en elle-même très fluide et très agréable à utiliser. Cependant celle-ci peut rebuter les utilisateurs habitués de Windows de longue date.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;la-maintenance&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-maintenance&quot; aria-label=&quot;Anchor link for: la-maintenance&quot;&gt;La maintenance&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;La maintenance est (presque) invisible. Les mises à jour se font automatiquement. Le seul moyen de voir qu&#x27;une est entrain d&#x27;être téléchargée et installée et de voir dans le coin droit en haut une icône de téléchargement.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;vanilla_on_going_extension.png&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;figcaption&gt;Il est possible d&#x27;arrêter la mise à jour en cours&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Mis à part ça, le système tourne tout seul comme une horloge quoi qu&#x27;il se passe.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;les-applications-graphiques&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#les-applications-graphiques&quot; aria-label=&quot;Anchor link for: les-applications-graphiques&quot;&gt;Les applications graphiques&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Vous disposez de l&#x27;ensemble du catalogue des applications disponibles sur &lt;a href=&quot;https:&#x2F;&#x2F;flathub.org&quot;&gt;Flathub&lt;&#x2F;a&gt;, et celles-ci sont toutes disponibles à l&#x27;installation à travers GNOME Logiciels.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;gnome_software_search.png&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;figcaption&gt;La recherche d&#x27;applications est simple et rapide&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Il faut tout de même noter que GNOME Logiciels peut parfois faire des siennes avec des petits ralentissements lors de l&#x27;installation d&#x27;une application par exemple, mais cela reste peu fréquent et peu dérangent.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;les-outils&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#les-outils&quot; aria-label=&quot;Anchor link for: les-outils&quot;&gt;Les outils&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Vanilla OS est fourni avec une multitude d&#x27;outils plus intéressants les uns que les autres. Je vais essayer de tous les aborder.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;vanilla-update-utility&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#vanilla-update-utility&quot; aria-label=&quot;Anchor link for: vanilla-update-utility&quot;&gt;Vanilla update utility&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Cet outil permet juste de définir la fréquence de vérification des mises à jour système (chaque jour&#x2F;semaine&#x2F;mois), mais aussi de les appliquer de manière &quot;intelligente&quot; pendant que le système n&#x27;est pas beaucoup utilisé pour ainsi éviter de pomper trop de débit internet par exemple.&lt;&#x2F;p&gt;
+&lt;p&gt;Il est accessible via Paramètres -&amp;gt; Système -&amp;gt; Mises à jour logicielles.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;vanilla_update_utility.png&quot; alt=&quot;Vanilla OS update utility&quot; &#x2F;&gt;
+&lt;figcaption&gt;Très simple, mais très fonctionnel&lt;&#x2F;figcapture&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;vanilla-prime-utility&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#vanilla-prime-utility&quot; aria-label=&quot;Anchor link for: vanilla-prime-utility&quot;&gt;Vanilla prime utility&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Cet outil permet de configurer le profil PRIME sur les PC portables disposants d&#x27;une carte graphique NVIDIA. Vous pouvez choisir d&#x27;utiliser le GPU dédié, le GPU intégré au processeur ou bien d&#x27;avoir un changement dynamique en fonction de la charge.&lt;&#x2F;p&gt;
+&lt;div class=&quot;note-container&quot;&gt;
+  
+    &lt;div class=&quot;note-header&quot;&gt;
+      
+        &lt;div class=&quot;note-icon&quot;&gt;
+        &lt;p&gt;Note&lt;&#x2F;p&gt;
+
+        &lt;&#x2F;div&gt;
+      
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;note-content&quot;&gt;
+      &lt;p&gt;Ne disposant pas de PC portable avec une carte NVIDIA et les pilotes propriétaires, je n&#x27;ai pas testé cette fonctionnalité.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;div&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;vanilla_prime_utility.png&quot; alt=&quot;Vanilla OS PRIME utility&quot; &#x2F;&gt;
+&lt;figcaption&gt;Image tirée du Github du projet&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;apx&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#apx&quot; aria-label=&quot;Anchor link for: apx&quot;&gt;Apx&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Apk est le gestionnaire de paquets de Vanilla OS. Mais ce n&#x27;est pas un gestionnaire de paquets comme les autres : il est un enrobage d&#x27;autres gestionnaires de paquets gérés dans des containers. De plus, il est possible de créer des environnements séparés du système avec le support de la création et de la gestion de containers (appelés &lt;em&gt;subsystems&lt;&#x2F;em&gt;). Il est basé sur les outils de &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;89luca89&#x2F;distrobox&quot;&gt;Distrobox&lt;&#x2F;a&gt;, un outil connu et reconnu pour permettre de faire tourner n&#x27;importe quelle distribution dans un container, tout an ayant une intégration avec le système hôte excellent. Vous pouvez donc installer des paquets provenant de plusieurs distros, tout en profitant d&#x27;une intégration dans le système principal.&lt;&#x2F;p&gt;
+&lt;p&gt;À l&#x27;aide d&#x27;un client graphique, la création de &lt;em&gt;subsystem&lt;&#x2F;em&gt;, de &lt;em&gt;stack&lt;&#x2F;em&gt; ou même l&#x27;ajout de nouveaux gestionnaires de paquets est plutôt simple.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;apx_gui.png&quot; alt=&quot;Apx graphical interface&quot; &#x2F;&gt;
+&lt;figcaption&gt;Interface de gestion d&#x27;un subsystem&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;vanilla-system-operator-vso&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#vanilla-system-operator-vso&quot; aria-label=&quot;Anchor link for: vanilla-system-operator-vso&quot;&gt;Vanilla system operator (VSO)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Lorsque vous lancez le terminal la première fois (Black Box par défaut), vous vous rendrez compte qu&#x27;il ne s&#x27;agit pas du shell système, mais d&#x27;un container. C&#x27;est avec celui-ci que vous allez interagir avec la ligne de commande tout le long de votre expérience sur Vanilla OS. Vous pouvez l&#x27;utiliser comme si c&#x27;était le shell système et installer des applications dessus avec &lt;code&gt;apt&lt;&#x2F;code&gt;. Il est isolé du système et de chaque utilisateur. Ainsi si quelque chose est cassé dans ce container, vous pouvez le réinitialiser avec &lt;code&gt;reset-vso&lt;&#x2F;code&gt; et le tour est joué, bien sûr sans ne perdre aucune de vos données dans le répertoire utilisateur.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;default_shell.png&quot; alt=&quot;default shell&quot; &#x2F;&gt;
+&lt;figcaption&gt;La ligne de commande n&#x27;est pas celle du système&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Mais les fonctionnalités de VSO ne s&#x27;arrêtent pas là ! En effet il est possible de créer des tâches qui se déroulent sous certaines conditions, d&#x27;exécuter des commandes de gestion système et encore plus.&lt;&#x2F;p&gt;
+&lt;p&gt;Je tiens à vous dire que je n&#x27;ai jamais vraiment utilisé cet outil par moi-même, car je n&#x27;en n&#x27;a pas eu l&#x27;utilité vu que tout se fait tout seul, et aussi car je n&#x27;ai exporté aucune application. J&#x27;avais bien tenté de créer des automatisations sur mon ordinateur portable permettant de changer automatiquement de profil d&#x27;alimentation en fonction de certaines conditions, mais rien a faire ; ça n&#x27;a jamais marché. J&#x27;ai peut-être fait les choses mal, mais il n&#x27;existe &lt;strong&gt;aucune&lt;&#x2F;strong&gt; documentation à l&#x27;heure où j&#x27;écris ces lignes pour la v2 de VSO (on en reparle plus tard).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sideload-utility&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#sideload-utility&quot; aria-label=&quot;Anchor link for: sideload-utility&quot;&gt;Sideload utility&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Cet utilitaire graphique utilise une fonctionnalité de VSO disponible en ligne de commande permettant de charger des applications en &lt;code&gt;.deb&lt;&#x2F;code&gt; &lt;em&gt;et&lt;&#x2F;em&gt; &lt;code&gt;.apk&lt;&#x2F;code&gt; (oui oui, des applications Android, on en reparle dans un autre post) pour les rendre disponibles dans le système sans à avoir à passer par la ligne de commande.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;sideload_utility_install.webp&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;figcaption&gt;Exemple d&#x27;installation de Chromium en version Android&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;abroot&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#abroot&quot; aria-label=&quot;Anchor link for: abroot&quot;&gt;ABRoot&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;ABRoot est l&#x27;outil qui fait de Vanilla ce qu&#x27;elle est. Il permet de jongler entre deux partitions racines, la &quot;A&quot; et la &quot;B&quot;, tout comme sur les &lt;a href=&quot;https:&#x2F;&#x2F;source.android.com&#x2F;docs&#x2F;core&#x2F;ota&#x2F;virtual_ab?hl=fr&quot;&gt;dernières versions d&#x27;Android&lt;&#x2F;a&gt;. Le principe est simple : tandis qu&#x27;une partition est la racine actuelle, l&#x27;autre contient l&#x27;ancienne version du système.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;lvm_partitioning_structure.png&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;figcaption&gt;Le partitionnement du système&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Lors d&#x27;une mise à jour, la partition qui n&#x27;est pas l&#x27;actuelle se voit appliquer la mise à jour, et elle deviendra la nouvelle partition racine au prochain redémarrage. L&#x27;existence de l&#x27;ancienne partition permet d&#x27;annuler une modification si celle-ci casse quelque chose, mais aussi de permettre une mise à jour qui ne modifie pas le système actuel en marche. Pour avoir fait une erreur lors de mes essais avec les images customs, je peux dire que le système de rollback fonctionne très bien.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;orchid-rollback.png&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;figcaption&gt;Interface de rollback lors du démarrage sur l&#x27;ancienne racine&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;ABRoot permet aussi l&#x27;ajout et la suppression de paquets système (et non pas dans un container), tout en gardant l&#x27;intégrité du système intacte. Le système fonctionne très bien et fait ce que l&#x27;on lui dit de faire.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;waydroid&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#waydroid&quot; aria-label=&quot;Anchor link for: waydroid&quot;&gt;Waydroid&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Vanilla OS est fourni avec la possibilité d&#x27;activer &lt;a href=&quot;https:&#x2F;&#x2F;waydro.id&#x2F;&quot;&gt;Waydroid&lt;&#x2F;a&gt;, qui est un moyen de faire fonctionner les application Android dans un environnement conteneurisé tout en les intégrant au système.&lt;&#x2F;p&gt;
+&lt;p&gt;C&#x27;est une fonctionnalité que je n&#x27;ai pas eu l&#x27;occasion de tester. J&#x27;en reparlerai peut-être dans un autre billet un jour.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;la-review&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-review&quot; aria-label=&quot;Anchor link for: la-review&quot;&gt;La review&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Le système de review se base sur une notation sur 50 points, répartie sur 9 points :&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;La simplicité de l&#x27;utilisation et de la maintenance &lt;strong&gt;&#x2F;11&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;La sécurité du système et de ses données &lt;strong&gt;&#x2F;5&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;L&#x27;installation &lt;strong&gt;&#x2F;3&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;La documentation et communauté &lt;strong&gt;&#x2F;7&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;L&#x27;adaptabilité &lt;strong&gt;&#x2F;5&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;La fraîcheur des paquets &lt;strong&gt;&#x2F;2&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;La logithèque &lt;strong&gt;&#x2F;3&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;La distro et ce qu&#x27;elle représente (philosophie, pourquoi ? pour quelle raisons ? changements ? innovations ? évolutions ? différences ?) &lt;strong&gt;&#x2F;11&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Compatibilité &lt;strong&gt;&#x2F;3&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;la-simplicite-de-l-utilisation-et-de-la-maintenance&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-simplicite-de-l-utilisation-et-de-la-maintenance&quot; aria-label=&quot;Anchor link for: la-simplicite-de-l-utilisation-et-de-la-maintenance&quot;&gt;La simplicité de l&#x27;utilisation et de la maintenance&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Vanilla OS est un système très simple à maintenir car tout se fait de manière graphique ou automatique. L&#x27;installation ainsi que la gestion des applications installés se fait à l&#x27;aide de GNOME Logiciels. Pour l&#x27;installation d&#x27;applications non présentes dans le magasin, la présence de Sideload permet d&#x27;installer des paquets tiers de manière graphique très simplement. Cependant pour installer un paquet au niveau du système (et non dans un environnement conteneurisé comme les deux autres options) il faut obligatoirement passer par la ligne de commande. De plus, il est impossible de forcer une vérification de mise à jour du système de manière graphique.&lt;&#x2F;p&gt;
+&lt;p&gt;Cela lui vaudra une note de 8&#x2F;11.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;la-securite-du-systeme-et-de-ses-donnees&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-securite-du-systeme-et-de-ses-donnees&quot; aria-label=&quot;Anchor link for: la-securite-du-systeme-et-de-ses-donnees&quot;&gt;La sécurité du système et de ses données&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;div class=&quot;note-container&quot;&gt;
+  
+    &lt;div class=&quot;note-header&quot;&gt;
+      
+        &lt;div class=&quot;note-icon&quot;&gt;
+        &lt;p&gt;Note&lt;&#x2F;p&gt;
+
+        &lt;&#x2F;div&gt;
+      
+    &lt;&#x2F;div&gt;
+    &lt;div class=&quot;note-content&quot;&gt;
+      &lt;p&gt;La sécurité du système ainsi que celle des données est évaluée sans aucune modification des paramètres par défaut.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;div&gt;
+&lt;p&gt;Dès l&#x27;installation le chiffrement de la partition des données système et personnelles est proposée. Lors de chaque démarrage, le mot&#x2F;phrase de passe est demandé dans une interface graphique ce qui rend la procédure moins austère. Le support du Secure Boot ainsi que de la vérification de l&#x27;intégrité de l&#x27;image système est très appréciée. Cependant on note l&#x27;absence de système de contrôle d&#x27;accès tel que &lt;a href=&quot;https:&#x2F;&#x2F;fr.wikipedia.org&#x2F;wiki&#x2F;SELinux&quot;&gt;SELinux&lt;&#x2F;a&gt; ou &lt;a href=&quot;https:&#x2F;&#x2F;fr.wikipedia.org&#x2F;wiki&#x2F;AppArmor&quot;&gt;Apparmor&lt;&#x2F;a&gt;, bien que Debian &lt;a href=&quot;https:&#x2F;&#x2F;wiki.debian.org&#x2F;SELinux&quot;&gt;supporte SELinux&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;assets&#x2F;posts&#x2F;vanillaos&#x2F;security_review.png&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;figcaption&gt;Tout semble au vert dans le rapport de sécurité&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Malgré l&#x27;absence de &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mandatory_access_control&quot;&gt;MAC&lt;&#x2F;a&gt;, Vanilla OS fait mieux que la plupart des autres systèmes Linux par défaut. Je lui donne une note de 4&#x2F;5.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;l-installation-1&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#l-installation-1&quot; aria-label=&quot;Anchor link for: l-installation-1&quot;&gt;L&#x27;installation&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;L&#x27;installation se passe plutôt bien et le paramétrage des options est plutôt simple, même pour un novice. Cependant certaines parties ne sont pas traduites que ce soit lors de l&#x27;installation ou de la post installation. Une personne n&#x27;ayant jamais effectué d&#x27;installation de système d&#x27;exploitation devra se faire aider grâce à une personne ou bien un tutoriel vidéo, mais ce point est valable pour toute installation de système d&#x27;exploitation, quel qu&#x27;il soit.&lt;&#x2F;p&gt;
+&lt;p&gt;Il est possible de faire mieux, mais c&#x27;est déjà ça. 2&#x2F;3.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;la-documentation-et-la-communaute&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-documentation-et-la-communaute&quot; aria-label=&quot;Anchor link for: la-documentation-et-la-communaute&quot;&gt;La documentation et la communauté&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;{{ note(header=&quot;Mise à jour (2024-08-30)&quot;, body=&quot;La documentation a reçue une mise à jour aujourd&#x27;hui permettant ainsi de la mettre à jour sur les outils de la distribution. Elle reste tout de même succinte mais c&#x27;est déjà bien mieux. La note a été mise à jour. Je laisse quand-même le texte lié à l&#x27;état de la documentation avant cette mise à jour.&quot;) }]&lt;&#x2F;p&gt;
+&lt;p&gt;C&#x27;est ici que ça se corse. La communauté est gentille, aidante et plutôt patiente sur le serveur Discord, mais il arrive trop souvent que des personnes n&#x27;aient aucune aide suite à leur post dans la section &quot;forum&quot;. Pour ce qui est de la documentation.. il faut dire qu&#x27;ils ont besoin d&#x27;aide ! On voit que tous leur temps a été consacré à l&#x27;écriture et à l&#x27;amélioration de cette v2 du système d&#x27;exploitation, en dépit de la documentation qui est dans le meilleur des cas incomplète, ou inexistante dans la v2 des outils ou tout simplement inexistante tout court. C&#x27;est vraiment un point sur lequel il faut qu&#x27;ils s&#x27;améliorent, mais la communauté peut aussi aider. Il faut juste se lancer. De plus avec un système relativement éloigné du fonctionnement des autres distros les autres tutoriels du net n&#x27;aident pas beaucoup si on ne sait pas trop ce que l&#x27;on fait.&lt;&#x2F;p&gt;
+&lt;p&gt;Avec les dernières modifications apportés à la documentation, j&#x27;augmente la note de 2&#x2F;7 à 4&#x2F;7.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;l-adaptabilite&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#l-adaptabilite&quot; aria-label=&quot;Anchor link for: l-adaptabilite&quot;&gt;L&#x27;adaptabilité&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Au premier abord il n&#x27;est pas si compliqué d&#x27;adapter la distribution de la manière que l&#x27;on souhaite. Pour l&#x27;environnement de bureau, il y a les extensions, pour l&#x27;ajout d&#x27;applications, c&#x27;est aussi simple. Là où ça devient complexe, c&#x27;est si on souhaite appliquer des modifications plus profondes dans le système. Dans ce cas, il va falloir passer par la génération d&#x27;images système custom. Le processus n&#x27;est pas en soit complexe, mais il faut y passer un peu de temps. Je pense que j&#x27;en ferai un tutoriel un jour ou l&#x27;autre. Les outils fonctionnent bien et ils sont faciles à déboguer si jamais on fait des erreurs.&lt;&#x2F;p&gt;
+&lt;p&gt;Je donne la note de 4&#x2F;5 pour cette partie.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;la-fraicheur-des-paquets&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-fraicheur-des-paquets&quot; aria-label=&quot;Anchor link for: la-fraicheur-des-paquets&quot;&gt;La fraîcheur des paquets&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Vanilla OS est basée sur Debian Sid (experimental). Les repos de Vanilla sont mis à jour environ tous les deux jours pour permettre des tests avant la mise en production. On évite ainsi le retard d&#x27;une base Debian stable ou unstable, mais on reste toujours dans l&#x27;esprit stabilité de Debian. Le modèle de mise à jour est donc semi-rolling car il ne faut pas attendre une nouvelle version pour profiter des nouveaux paquets.&lt;&#x2F;p&gt;
+&lt;p&gt;Les paquets sont donc testés &lt;strong&gt;et&lt;&#x2F;strong&gt; à jour, ce qui offre un très bon équilibre. 2&#x2F;2.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;la-logitheque&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-logitheque&quot; aria-label=&quot;Anchor link for: la-logitheque&quot;&gt;La logithèque&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;La distro étant une base Debian, on retrouve donc l&#x27;immense quantité de paquets disponibles ainsi qu&#x27;un support plutôt privilégié car le format de paquet deb est le plus utilisé dans le monde de Linux, garantissant ainsi encore plus de paquets venant de projets plus petits. On note aussi la possibilité avec Apx d&#x27;installer des paquets venant de n&#x27;importe quelle distribution telle que Alpine Linux, Arch, Fedora ou encore OpenSUSE. Il y a aussi le format Flatpak qui est le format privilégié pour les applications graphiques qui offre énormément de choix car il est le format multi-distro adopté pas tous.&lt;&#x2F;p&gt;
+&lt;p&gt;Avec tous ces avantages, vous avez l&#x27;une si ce n&#x27;est &lt;em&gt;la&lt;&#x2F;em&gt; plus grande quantité de paquets disponibles. Je donne la note de 3&#x2F;3.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;la-distro-et-ce-qu-elle-represente&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-distro-et-ce-qu-elle-represente&quot; aria-label=&quot;Anchor link for: la-distro-et-ce-qu-elle-represente&quot;&gt;La distro et ce qu&#x27;elle représente&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Cette distribution Linux, quand on la compare à la myriade déjà existante, apporte de la valeur ajouté pour l&#x27;utilisateur. Ce n&#x27;est pas un simple thème ou quelques petites modifications faites par-ci par-là sur une distro mère. Ici on trouve de vrais outils développés &lt;em&gt;par&lt;&#x2F;em&gt; l&#x27;équipe derrière le système et qui vont dans un sens commun : faire en sorte que Vanilla OS soit fiable, sécurisé et simple d&#x27;utilisation. Avec ABRoot par exemple, qui fonctionne avec un partitionnement qui n&#x27;a rien d&#x27;habituel, ou encore sur le fait de ne pas vraiment d&#x27;avoir de gestionnaire de paquets, mais &lt;em&gt;plusieurs&lt;&#x2F;em&gt;. Toutes ces modifications la rend atypique, mais dans le bon sens.&lt;&#x2F;p&gt;
+&lt;p&gt;Je lui donne donc une note de 11&#x2F;11, j&#x27;adore l&#x27;idée.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;la-compatibilite&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-compatibilite&quot; aria-label=&quot;Anchor link for: la-compatibilite&quot;&gt;La compatibilité&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;La compatibilité n&#x27;est vraiment pas grande ; seulement l&#x27;architecture X86_64 est supporté et les systèmes BIOS ne sont pas supportés. Cela dit, toutes les machines d&#x27;après 2010 (voir un peu avant, car &lt;a href=&quot;https:&#x2F;&#x2F;fr.wikipedia.org&#x2F;wiki&#x2F;UEFI&quot;&gt;l&#x27;UEFI 2.0 est sorti en 2006&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
+&lt;p&gt;Avec autant de restrictions, je ne peux donner que la note de 1&#x2F;3.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;le-resultat&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#le-resultat&quot; aria-label=&quot;Anchor link for: le-resultat&quot;&gt;Le résultat&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;On se retrouve donc avec un score total de 38&#x2F;50 Pour l&#x27;instant ça ne veut pas dire grand-chose car c&#x27;est la première distro testé sur ce principe, mais je pense que c&#x27;est déjà pas mal. J&#x27;ajouterai un tableau de comparaison quand j&#x27;aurais plus de données.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;la-fin&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-fin&quot; aria-label=&quot;Anchor link for: la-fin&quot;&gt;La fin&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Pour conclure, Vanilla OS se trouve être un très bon OS, qui restera sur mes machines encore quelques temps. Malgré le manque de raffinement sur certains points, on reste sur un système que Jean-tout-le-monde peut utiliser sans avoir à demander de l&#x27;aide tous les jours. On verra dans le futur si tout s&#x27;améliore, mais j&#x27;y crois beaucoup. Je risque d&#x27;ajouter des édits sur les points qui ont changés.&lt;&#x2F;p&gt;
+&lt;p&gt;J&#x27;espère que l&#x27;organisation n&#x27;était pas trop brouillon, car c&#x27;est pour moi la première fois que j&#x27;écris autant. Je vais encore apporter des modifications sur des phrases mal formulés, ou encore des fautes d&#x27;orthographe et&#x2F;ou de frappe. Merci d&#x27;avoir lu jusque ici. Le prochain billet devrait parler de la review très long terme de mon smartphone.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;À la revoyure !&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>[fr] Initialisation</title>
+        <published>2024-08-24T00:00:00+00:00</published>
+        <updated>2024-08-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://babilinx.github.io/posts/initialisation-fr/"/>
+        <id>https://babilinx.github.io/posts/initialisation-fr/</id>
+        
+        <content type="html" xml:base="https://babilinx.github.io/posts/initialisation-fr/">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;le-commencement&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#le-commencement&quot; aria-label=&quot;Anchor link for: le-commencement&quot;&gt;Le commencement&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Tout d&#x27;abord, bienvenue dans mon antre qu&#x27;est ce site&#x2F;blog. Je ne sais pas comment vous êtes arrivé ici, mais &lt;em&gt;félicitations !&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Ici vous trouverez plusieurs thématiques qui me tiennent à cœur, comme par exemple le monde de Linux, de la tech ou bien du développement personnel. Bien évidemment la porte est ouverte à tous les autres sujets divers et variés que je trouve intéressant.&lt;&#x2F;p&gt;
+&lt;p&gt;Je vais essayer de poster régulièrement jusqu&#x27;à novembre, date à laquelle je serais pris de plein temps (ou presque) par mon travail.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;c-est-pas-raffine&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#c-est-pas-raffine&quot; aria-label=&quot;Anchor link for: c-est-pas-raffine&quot;&gt;C&#x27;est pas raffiné&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Je n&#x27;ai jamais écrit, ni même jamais vraiment lu de billets de blog, je m&#x27;excuse donc auparavant pour les petits soucis par-ci par-là lors de l&#x27;écriture de ceux-ci. Cependant je vais quand-même m&#x27;appliquer pour proposer du contenu qui vous apportera je l&#x27;espère, de la valeur.&lt;&#x2F;p&gt;
+&lt;p&gt;Le site lui non-plus n&#x27;est pas bien fini. Je souhaite d&#x27;abord changer la police d&#x27;écriture, et apporter quelques modifications ; principalement l&#x27;ajout du support de langues multiples (anglais&#x2F;français) afin de pouvoir toucher un public toujours plus grand.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;la-fin&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#la-fin&quot; aria-label=&quot;Anchor link for: la-fin&quot;&gt;La fin&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Il parait évident que ce site ne sera jamais monétisé, mis à part peut-être à travers des donations mais ça ne fait pas partie de mes plans pour l&#x27;instant. Pour ce qui est de l&#x27;aspect légal de la propriété intellectuelle de ce site, tout le contenu de ce site fait partie du domaine publique, &lt;strong&gt;hors&lt;&#x2F;strong&gt; le thème utilisé (ici &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;not-matthias&#x2F;apollo&quot;&gt;apollo&lt;&#x2F;a&gt;). Vous pouvez donc faire ce que vous voulez de tout ce qui se trouve ici.&lt;&#x2F;p&gt;
+&lt;p&gt;Pour clôturer ce petit billet, je vais vous annoncer le sujet du prochain billet : une review de distro GNU&#x2F;Linux, immuable et plutôt pas-mal.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;À la revoyure !&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://babilinx.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://babilinx.github.io/posts/</loc>
+    </url>
+    <url>
+        <loc>https://babilinx.github.io/posts/initialisation-fr/</loc>
+        <lastmod>2024-08-24</lastmod>
+    </url>
+    <url>
+        <loc>https://babilinx.github.io/posts/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://babilinx.github.io/posts/vanillaos-fr/</loc>
+        <lastmod>2024-08-28</lastmod>
+    </url>
+    <url>
+        <loc>https://babilinx.github.io/tags/</loc>
+    </url>
+    <url>
+        <loc>https://babilinx.github.io/tags/general/</loc>
+    </url>
+    <url>
+        <loc>https://babilinx.github.io/tags/linux/</loc>
+    </url>
+    <url>
+        <loc>https://babilinx.github.io/tags/review/</loc>
+    </url>
+</urlset>
